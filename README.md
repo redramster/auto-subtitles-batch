@@ -51,6 +51,6 @@ This project provides a batch script to automatically embed subtitles into video
 
 ## Verification
 
-1. Check the `input` folder in `SubtitleProject`.
+1. Check the `input` folder in your porject.
 2. You'll see the original videos, subtitle files, and the new videos with the embedded subtitles.
 3. Play one of the subtitled videos to ensure the subtitles are correctly embedded.
