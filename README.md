@@ -1,4 +1,4 @@
-# Automated Subtitle Embedder for Windows
+# Automated Subtitle Embedder for Windows & MAC
 
 This project provides a batch script to automatically embed subtitles into videos using FFmpeg on Windows.
 
