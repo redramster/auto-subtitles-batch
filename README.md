@@ -20,23 +20,19 @@ This project provides a batch script to automatically embed subtitles into video
 
 ### 2. Prepare Video and Subtitle Files
 
-- Make a folder where you'll keep the script, videos, and subtitles. Let's name it `SubtitleProject`.
-- Inside `SubtitleProject`, create another folder named `input`. Put all your `.mp4` videos and their corresponding `.srt` subtitle files here. Ensure each video and its respective subtitle have identical names (e.g., `video1.mp4` and `video1.srt`).
-
 ## Setup
 
-1. Inside the `SubtitleProject` directory, create a new text document and rename it to `addSubtitles.bat`.
-2. Edit `addSubtitles.bat` (right-click and choose `Edit`). This should open the file in Notepad.
-3. Copy and paste the provided batch script into this file.
-4. Save and exit the file.
+1. Download the project by clicking "Code" (Green button) and then "Download Zip"
+2. Unzip the files into a folder
+3. Place your video and .srt files in the folder named "input" (created when you unzipped the project). Remove the files there, they are just a sample. **You should have an mp4 file and an srt file named the same**.
 
 ## Usage
 
 1. Open Command Prompt (`cmd`) as administrator.
-2. Navigate to the `SubtitleProject` folder:
+2. Navigate to the folder you created:
 
     ```bash
-    cd path\to\SubtitleProject
+    cd path\to\folder
     ```
 
     Replace `path\to\SubtitleProject` with your actual path.
@@ -44,7 +40,7 @@ This project provides a batch script to automatically embed subtitles into video
 3. Run the script:
 
     ```bash
-    addSubtitles.bat
+    addsubtitles.bat (or sh addsubtitles.sh in Mac)
     ```
 
 4. The script will process each video in the `input` folder. If a corresponding `.srt` subtitle file is present, it will embed the subtitles into the video. The output video will have `_subtitled` added to its name (e.g., `video1_subtitled.mp4`).
